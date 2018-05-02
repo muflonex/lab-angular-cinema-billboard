@@ -1,0 +1,25 @@
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.column{
+  display:flex;
+  flex-direction: column;
+}
+h1{
+  margin: 20px auto;
+}
+ul{
+  list-style: none;
+}
+.movie{
+  width: 15vw;
+  margin: 10px;
+}
+.movie img{
+  object-fit: cover;
+  min-width: 15vw;
+  height: 300px;
+}
