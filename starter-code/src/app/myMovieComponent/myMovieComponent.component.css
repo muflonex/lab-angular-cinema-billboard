@@ -3,8 +3,10 @@ h2{
   font-size: 3em;
 }
 .poster{
-  object-fit: cover;
-  height: 400px;
+  height: 500px;
+}
+.poster img{
+  object-fit: contain;
 }
 .details{
   max-width: 40vw;
