@@ -1,1 +1,30 @@
-{{movie.title}}
+<div class="row">
+  <h2>
+    <strong>Room: {{movie.room}}</strong> {{movie.title}}</h2>
+</div>
+<div class="row">
+  <img src="{{movie.poster}}" class="poster" alt="">
+  <div class="column details">
+    <p>
+      <strong> Genres:</strong> {{movie.genres}}</p>
+    <p>
+      <strong> Year:</strong> {{movie.year}}</p>
+    <p>
+      <strong> Director:</strong> {{movie.director}}</p>
+    <div class="row left">
+      <p>
+        <strong> Actors:</strong>
+      </p>
+      <ul class="column">
+        <li *ngFor="let actor of movie.actors">{{actor}}</li>
+      </ul>
+    </div>
+    <p>
+      <strong> Schedule:</strong> {{movie.hours}}</p>
+    <p>
+      <strong> Synopsis:</strong>
+    </p>
+    <p>{{movie.synopsis}}</p>
+    <div class="row link" [routerLink]="['/home']">Home</div>
+  </div>
+</div>

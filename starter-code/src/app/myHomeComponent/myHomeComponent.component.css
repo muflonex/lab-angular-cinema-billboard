@@ -1,22 +1,13 @@
-.row{
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-.column{
-  display:flex;
-  flex-direction: column;
-}
-h1{
-  margin: 20px auto;
-}
-ul{
-  list-style: none;
-}
+
 .movie{
   width: 15vw;
   margin: 10px;
+  box-shadow: black 0 0 5px;
+  background: rgb(54, 54, 54)
+}
+.movie:hover{
+  transform: scale(1.1,1.1);
+  transition: all 0.3s ease-in;
 }
 .movie img{
   object-fit: cover;

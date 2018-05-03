@@ -1,0 +1,26 @@
+
+h2{
+  font-size: 3em;
+}
+.poster{
+  object-fit: cover;
+  height: 400px;
+}
+.details{
+  max-width: 40vw;
+  margin-left: 10vw;
+}
+.link{
+  background: #2e6592;
+  color:whitesmoke;
+  padding: 10px 20px;
+  width: 10vw;
+  align-self: center;
+  transition: all 0.3s ease-in;
+}
+.link:hover{
+  background: #1d486b;
+}
+ul{
+  display:inline-block;
+}
